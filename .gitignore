@@ -44,8 +44,8 @@ package-lock.json
 doc
 
 # compilation targets
-targets
-targets/ix
+# targets
+# targets/ix
 targets/ts
 targets/es5
 targets/es2015
