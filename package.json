@@ -14,7 +14,6 @@
     "lint": "run-p lint:*",
     "release": "./npm-release.sh",
     "doc": "shx rm -rf ./doc && typedoc --options typedoc.js",
-    "postinstall": "patch-package --patch-dir ./patches",
     "commitmsg": "validate-commit-msg",
     "test:coverage": "gulp test -t src --coverage",
     "lint:src": "eslint --ext .ts --fix \"src/**/*.ts\"",
